@@ -1,19 +1,20 @@
 .img {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 15%;
+    margin-right: 60px;
+    width: 23%;
     border-radius: 50%;
 }
 
 h1 {
     font-style: normal;
     font-size: 40px;
-    color: Black;
+    color:#373737;
+    font-size: 45px;
    } 
    
    input[type=name] {
-     width: 9.9%;
+     width: 15%;
      padding: 7px 12px;
      margin: 10px 0;
      box-sizing: border-box;
@@ -22,7 +23,7 @@ h1 {
    }
    
    input[type=email] {
-     width: 9.9%;
+     width: 15%;
      padding: 7px 12px;
      margin: 10px 0;
      box-sizing: border-box;
@@ -33,6 +34,7 @@ h1 {
      margin: 10px 0;
      box-sizing: border-box;
      margin-right: 10px;
+    
    }
    
    input[type=reset] {
@@ -53,14 +55,16 @@ h1 {
    
    table {
      border: 1px solid;
+
    }
    
    body {
-   background-color: #f8f8ff;
+   background-color:#f9f9de;
+   text-align: center;
    }
    
    th, td {
-     padding: 15px;
+     padding: 10px;
    }
    
    .buttonC {
@@ -71,26 +75,25 @@ h1 {
      text-decoration: none;
      display: inline-block;
    }
-   .buttonBck {
-    background-color: darkslategray;
-     color: white;
-     padding: 12px 22px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-   }
-   .buttonFb {
-    background-color: aliceblue;
-     color: white;
-     padding: 3px 3px;
-     margin-right: 10px;
-   }
-   .buttonGh {
-    background-color: darkslategray;
-     color: white;
-     padding: 12px 22px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-   }
-   
+
+.topnav {
+  overflow: hidden;
+  background-color: #373737;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 17px 19px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.first{
+    background-image: url("background.webp");
+    background-size: 1250px;
+}
