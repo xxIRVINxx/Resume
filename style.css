@@ -1,63 +1,96 @@
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 50%;
+}
+
 h1 {
- font-style: normal;
- font-size: 45px;
- color: Black;
-} 
+    font-style: normal;
+    font-size: 40px;
+    color: Black;
+   } 
+   
+   input[type=name] {
+     width: 9.9%;
+     padding: 7px 12px;
+     margin: 10px 0;
+     box-sizing: border-box;
+     margin-right: 10px;
 
-input[type=name] {
-  width: 10%;
-  padding: 7px 12px;
-  margin: 10px 0;
-  box-sizing: border-box;
-}
-
-input[type=email] {
-  width: 10%;
-  padding: 7px 12px;
-  margin: 10px 0;
-  box-sizing: border-box;
-}
-input[type=submit] {
-  width: 10%;
-  padding: 7px 12px;
-  margin: 10px 0;
-  box-sizing: border-box;
-}
-
-input[type=reset] {
-  width: 10%;
-  padding: 7px 12px;
-  margin: 10px 0;
-  box-sizing: border-box;
-}
-
-textarea {
-  background: url(images/benice.png) center center no-repeat; 
-  border: 1px solid #888; 
-  $("textarea").resizable();
-}
-
-ul {
-   list-style-type: circle;
-}
-
-table {
-  border: 1px solid;
-}
-
-body {
-background-color: #white;
-}
-
-th, td {
-  padding: 15px;
-}
-
-.button {
- background-color: #f44336;
-  color: white;
-  padding: 12px 22px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
+   }
+   
+   input[type=email] {
+     width: 9.9%;
+     padding: 7px 12px;
+     margin: 10px 0;
+     box-sizing: border-box;
+   }
+   input[type=submit] {
+     width: 9.9%;
+     padding: 7px 12px;
+     margin: 10px 0;
+     box-sizing: border-box;
+     margin-right: 10px;
+   }
+   
+   input[type=reset] {
+     width: 9.9%;
+     padding: 7px 12px;
+     margin: 10px 0;
+     box-sizing: border-box;
+   }
+   
+   textarea {
+     background: url(images/benice.png) center center no-repeat; 
+     border: 1px solid #888; 
+   }
+   
+   ul {
+      list-style-type: circle;
+   }
+   
+   table {
+     border: 1px solid;
+   }
+   
+   body {
+   background-color: #f8f8ff;
+   }
+   
+   th, td {
+     padding: 15px;
+   }
+   
+   .buttonC {
+    background-color:darkslategray;
+     color: white;
+     padding: 12px 22px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+   }
+   .buttonBck {
+    background-color: darkslategray;
+     color: white;
+     padding: 12px 22px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+   }
+   .buttonFb {
+    background-color: aliceblue;
+     color: white;
+     padding: 3px 3px;
+     margin-right: 10px;
+   }
+   .buttonGh {
+    background-color: darkslategray;
+     color: white;
+     padding: 12px 22px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+   }
+   
